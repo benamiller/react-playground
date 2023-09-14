@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import avatar from "./baseline_perm_identity_black_48dp.png";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <figure>
+      <div>
+        <img src={avatar} />
+      </div>
+      <h1>Leroy Brown</h1>
+      <p>(123)-456-7890</p>
+      <p>LB35@yahoo.com</p>
+    </figure>
   );
 }
 
